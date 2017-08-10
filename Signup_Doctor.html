@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Doctor Signup</title>
+</head>
+
+<body>
+    <div class="Doctor Signup" align="center"> <!--content-->
+        Sign up here.  <!--content-->
+   
+    <style>
+body  {
+    background-image: url("Cow.jpg");
+    background-color: #cccccc;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: -150px -250px;
+}
+</style>
+
+    <style>
+form {
+    border: 3px solid #f1f1f1;
+}
+
+input[type=text], input [type=text], input[type=password], input [type=date] ,input [type=number], input[type=text], input[type=number], input[type=number], input[type=text], input[type=number], input[type=text] {
+    width: 15%;
+    padding: 20px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 4px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width:10%;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+    
+}
+</style>
+
+
+<body>
+    
+<div style="background-color:transparent; color: green;  font-size:25px;border:1px; padding:20px;">
+
+
+    <h2> Qurbani Cow  Management System </h2>
+    <marquee><p> Perfect place to find your desired Qurbani animal</marquee></p>
+
+</div>
+</body>
+
+<form action="doctor_signup.php" method="Post">
+<h3>SIGN UP AS DOCTOR</h3>
+
+
+
+  <div class="container">
+
+    <br><label><b>Name</b></label>
+    <input type="text" placeholder="Enter name" name="dname" required></br>
+
+   <br> <label><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required></br>
+
+   <br> <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required></br>
+
+    <br><label><b>Birthdate</b></label>
+    <input type="date" placeholder="YYYY-MM-DD" name="bdate" required></br>
+
+    <br><label><b>Postcode</b></label>
+    <input type="number" placeholder="Enter Postcode" name="dpcode" required>  </br>
+
+    <br><label><b>Post Office</b></label>
+    <input type="text" placeholder="Enter Post Office name" name="dpoffice" required>  </br>
+
+   <br> <label><b>district</b></label>
+    <input type="text" placeholder="Enter district" name="ddistrict" required></br>
+
+     <br> <label><b>Village</b></label>
+    <input type="text" placeholder="Enter village" name="dvillage" required>    </br>  
+
+
+    <br><label><b>Phone number</b></label>
+    <input type="text" placeholder="Enter phone number" name="dpnumber" required></br>
+
+
+    <br><label><b>service fee</b></label>
+    <input type="number" placeholder="Enter service fee" name="dserfee" required></br>
+
+    <br><label><b>experience(years) </b></label>
+    <input type="number" placeholder="Enter experience" name="dexp" required></br>
+
+
+    <br><label><b>Passing year</b></label>
+    <input type="number" placeholder="Enter Passing year" name="dpyear" required></br>
+
+     <br><label><b>Institution</b></label>
+    <input type="text" placeholder="Enter institution" name="dinstitute" required></br>
+
+  	<input type="file" name="pic" accept="image/*">
+
+
+
+    <input type="submit" value="Sign up">
+</form>
+
+  </div>
+
+  <div class="container" style="background-color:transparent;">
+    <button type="button" class="cancelbtn">Cancel</button>
+  
+
+  </div>
+
+</div>
+
+</body>
+
+</body>
+</html>
